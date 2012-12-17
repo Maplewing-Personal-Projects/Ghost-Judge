@@ -1,0 +1,45 @@
+<%= form_for(@problem) do |f| %>
+  <% if @problem.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@problem.errors.count, "error") %> prohibited this problem from being saved:</h2>
+
+      <ul>
+      <% @problem.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :sampleInput %><br />
+    <%= f.text_area :sampleInput %>
+  </div>
+  <div class="field">
+    <%= f.label :sampleOutput %><br />
+    <%= f.text_area :sampleOutput %>
+  </div>
+  <div class="field">
+    <%= f.label :inputFile %><br />
+    <%= f.text_area :inputFile %>
+  </div>
+  <div class="field">
+    <%= f.label :outputFile %><br />
+    <%= f.text_area :outputFile %>
+  </div>
+  <div class="field">
+    <%= f.label :Label %><br />
+    <%= f.text_area :Label %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

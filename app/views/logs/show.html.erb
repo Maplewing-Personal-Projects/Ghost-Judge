@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Time:</b>
+  <%= @log.time %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @log.status %>
+</p>
+
+<p>
+  <b>Executiontime:</b>
+  <%= @log.executionTime %>
+</p>
+
+<p>
+  <b>Memorysize:</b>
+  <%= @log.memorySize %>
+</p>
+
+
+<%= link_to 'Edit', edit_log_path(@log) %> |
+<%= link_to 'Back', logs_path %>

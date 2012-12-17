@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ID: 1
+  name: MyString
+  description: MyText
+  sampleInput: MyText
+  sampleOutput: MyText
+  inputFile: MyText
+  outputFile: MyText
+  Label: MyText
+
+two:
+  ID: 1
+  name: MyString
+  description: MyText
+  sampleInput: MyText
+  sampleOutput: MyText
+  inputFile: MyText
+  outputFile: MyText
+  Label: MyText

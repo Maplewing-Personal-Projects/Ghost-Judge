@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  time: 
+  status: 1
+  executionTime: 2012-12-17 08:03:51
+  memorySize: 1
+
+two:
+  time: 
+  status: 1
+  executionTime: 2012-12-17 08:03:51
+  memorySize: 1

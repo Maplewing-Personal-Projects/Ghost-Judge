@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @problem.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @problem.description %>
+</p>
+
+<p>
+  <b>Sampleinput:</b>
+  <%= @problem.sampleInput %>
+</p>
+
+<p>
+  <b>Sampleoutput:</b>
+  <%= @problem.sampleOutput %>
+</p>
+
+<p>
+  <b>Inputfile:</b>
+  <%= @problem.inputFile %>
+</p>
+
+<p>
+  <b>Outputfile:</b>
+  <%= @problem.outputFile %>
+</p>
+
+<p>
+  <b>Label:</b>
+  <%= @problem.Label %>
+</p>
+
+
+<%= link_to 'Edit', edit_problem_path(@problem) %> |
+<%= link_to 'Back', problems_path %>
